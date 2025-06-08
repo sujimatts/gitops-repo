@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/sujimatts/gitops-repo.git
     targetRevision: main
-    path: argo_cd_configs/app1
+    path: applications/app1
     helm:
       valueFiles:
         - values.yaml
